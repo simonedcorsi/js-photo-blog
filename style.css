@@ -1,3 +1,14 @@
+.fonts {
+    font-family: "Edu TAS Beginner", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.fontData {
+    
+}
+
 header {
     background-image:url(img/wall.png);
 }
