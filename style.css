@@ -5,3 +5,12 @@ header {
 main {
     background-image:url(img/cork.png) ;
 }
+
+#img {
+    width:300px;
+}
+
+.bCard {
+    background-color: white;
+    padding: 5%;
+}
