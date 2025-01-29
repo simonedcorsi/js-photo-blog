@@ -19,7 +19,7 @@ main {
     transform: translatex(-50%);
     top: -15px;
     left: 50%;
-
+    background-size: contain;
 }
 
 
