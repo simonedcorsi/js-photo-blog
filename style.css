@@ -68,11 +68,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
-
-
 
 .overlay img {
     width: 50%;
+}
+
+.btn1 {
+    display: none;
 }
