@@ -3,7 +3,9 @@ const card = document.getElementById('gallery');
 fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
     .then(response => response.json())
     .then(data => {
-        // codice per far qualcosa con la risposta
+
+        let arrayCards = []
+        
         data.forEach(element => {
             const cards = document.createElement('div')
             cards.className = "col-md-4 d-flex justify-content-center col-sm-6";
@@ -16,17 +18,24 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
 
             cards.innerHTML = elements;
             card.appendChild(cards);
-        });
+
+            arrayCards = document.querySelectorAll('.bCard')
+
+            arrayCards.forEach(element => {
+                element.addEventListener('click', function () {
+                    
+
+            })
 
 
-    })
+        })
 
-let piN = document.getElementById('pin')
+    });
 
-
-button.addEventListener('click', function () {
 
 })
+
+
     
 
 

@@ -38,7 +38,7 @@ main {
 }
 
 
-.bCard:hover {
+.bCard {
     background-color: white;
     padding: 2%;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
@@ -47,8 +47,10 @@ main {
     margin: 0 auto;
     cursor: pointer;
     transition: transform 0.2s;
-    transform: scale(1.2);
-    transform: rotate(40deg);
+}
+
+.bCard:hover {
+    transform:rotate(10deg) scale(1.2);
 }
 
 .overlay {
