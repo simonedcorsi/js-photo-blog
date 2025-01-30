@@ -7,7 +7,7 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
         data.forEach(element => {
             const cards = document.createElement('div')
             cards.className = "col-md-4 d-flex justify-content-center col-sm-6";
-            const elements = `<div class= "bCard"> 
+            const elements = `<div class= "bCard" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
             <img id="pin" src="img/pin.svg" alt="pin">
                 <img id="img" src="${element.url}" alt="${element.title}">
                 <p class ="fontData">${element.date}</p>
@@ -18,5 +18,16 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
             card.appendChild(cards);
         });
 
+
     })
+
+let piN = document.getElementById('pin')
+
+
+button.addEventListener('click', function () {
+
+})
+    
+
+
     

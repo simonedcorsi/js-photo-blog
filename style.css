@@ -18,6 +18,7 @@ header {
 
 main {
     background-image:url(img/cork.png) ;
+    background-size: contain;
 }
 
 #img {
@@ -37,11 +38,15 @@ main {
 }
 
 
-.bCard {
+.bCard:hover {
     background-color: white;
     padding: 2%;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
     text-align: center;
     position: relative;
     margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    transform: rotate(40deg);
 }
