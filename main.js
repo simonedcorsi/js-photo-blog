@@ -23,7 +23,8 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
 
             arrayCards.forEach(element => {
                 element.addEventListener('click', function () {
-                    
+                    let modal = document.className = "overlay";
+                    modal.classList.remove("overlay1");
 
             })
 

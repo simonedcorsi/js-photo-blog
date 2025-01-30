@@ -53,6 +53,10 @@ main {
     transform:rotate(10deg) scale(1.2);
 }
 
+.overlay1 {
+    display: none;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -66,6 +70,8 @@ main {
     align-items: center;
     display: none;
 }
+
+
 
 .overlay img {
     width: 50%;
