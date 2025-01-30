@@ -26,7 +26,7 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
             let modal = document.getElementById('modal');
             modal.className = 'overlay'
 
-            const pathImmagine = element.querySelector("img").src;
+            const pathImmagine = element.querySelectorAll("img")[1].src;
             document.getElementById('preview_img').src = pathImmagine;
             console.log(pathImmagine);
 
