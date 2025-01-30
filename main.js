@@ -28,8 +28,7 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
                 
             })
             document.getElementById("btn").addEventListener("click", function() {
-                let btn = document.getElementById("btn1");
-                btn.className = 'btn1';
+              
                 
             } ) ;
                 
